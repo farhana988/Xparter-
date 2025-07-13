@@ -1,7 +1,7 @@
 const PortfolioCard = ({ image }) => {
   const { src, caption } = image || {};
   return (
-    <div className="overflow-hidden shadow-md ">
+    <div className="overflow-hidden shadow-md">
       <div className="relative h-60 md:h-56 xl:h-80">
         <img
           src={src}

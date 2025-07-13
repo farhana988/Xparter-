@@ -1,18 +1,19 @@
 import imageData from "../../data/imageData";
 import PortfolioCard from "../cards/PortfolioCard";
 import Container from "../reusable/Container";
+import FreePic from "../reusable/FreePic";
 import Heading from "../reusable/Heading";
 
 const Portfolio = () => {
   return (
-    <div className="bg-zinc-800 py-10">
+    <div className="bg-zinc-800 pt-10 pb-16 text-white ">
       {/* Heading */}
       <Heading
         title={"Portfolio"}
         subtitle={
           "From responsive websites and mobile applications to branding and corporate design, here’s a glimpse into the digital solutions, crafted to solve real-world problems through thoughtful design and user experience."
         }
-        className="text-white font-light"
+        className="font-light"
       />
 
       {/* Card */}
@@ -24,6 +25,9 @@ const Portfolio = () => {
           <PortfolioCard key={image.id} image={image} />
         ))}
       </Container>
+      <div className="flex justify-center mt-10 opacity-60">
+        <FreePic />
+      </div>
     </div>
   );
 };

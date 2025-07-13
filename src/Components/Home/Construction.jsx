@@ -1,4 +1,5 @@
 import bgImage from "../../assets/images/9. construction.jpg";
+import Button from "../buttons/Button";
 import FreePic from "../reusable/FreePic";
 
 const Construction = () => {
@@ -32,16 +33,9 @@ const Construction = () => {
             performance, accessibility, and long-term scalability across both
             web and mobile environments.
             <br className="hidden md:block" />
-            <br /> image from <FreePic />
+            <br /> <FreePic />
           </p>
-
-          <button
-            className="px-4 md:px-6 xl:px-10 py-1 md:py-2 xl:py-4 border-2
-           text-xs md:text-base border-white rounded-md opacity-50
-          "
-          >
-            Contact Us
-          </button>
+          <Button className="opacity-50">Contact Us</Button>
         </div>
       </div>
     </section>
