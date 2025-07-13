@@ -1,12 +1,16 @@
-import React from 'react';
-import Portfolio from '../Components/Portfolio';
+import React from "react";
+import Portfolio from "../Components/Home/Portfolio";
+import WhatWeDo from "../Components/Home/WhatWeDo";
+import Construction from "../Components/Home/Construction";
 
 const Home = () => {
-    return (
-        <div>
-            <Portfolio/>
-        </div>
-    );
+  return (
+    <>
+      <Portfolio />
+      <Construction/>
+      <WhatWeDo/>
+    </>
+  );
 };
 
 export default Home;
