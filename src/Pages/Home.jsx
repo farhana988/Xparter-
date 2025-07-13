@@ -1,9 +1,10 @@
 import React from 'react';
+import Portfolio from '../Components/Portfolio';
 
 const Home = () => {
     return (
         <div>
-            home
+            <Portfolio/>
         </div>
     );
 };
