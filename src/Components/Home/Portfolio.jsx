@@ -12,7 +12,7 @@ const Portfolio = () => {
         subtitle={
           "From responsive websites and mobile applications to branding and corporate design, here’s a glimpse into the digital solutions, crafted to solve real-world problems through thoughtful design and user experience."
         }
-        className="text-white"
+        className="text-white font-light"
       />
 
       {/* Card */}
