@@ -1,12 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💻 Creative Website Portfolio
 
-Currently, two official plugins are available:
+This is a modern and fully responsive **portfolio website** built using **React** and **Tailwind CSS**. The Portfolio template is ideal for creative agencies, freelancers, and web development studios to showcase their services, projects, and brand values.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Link -** 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔥 Features
+
+- **Responsive Design** – Ensures optimal viewing experience across all screen sizes.
+- **Utility-First Styling** – Styled entirely with Tailwind CSS for consistent and efficient design implementation.
+- **Component-Based Architecture** – Built using modular React components for maintainability and scalability.
+- **Project Showcase** – Includes a structured portfolio grid to highlight featured work.
+- **Service Sections** – Clear overview of what you do and offer
+- **Service Presentation** – Clearly outlines business offerings and areas of expertise.
+- **Integrated Contact Section** – Provides accessible contact information with a prominent call-to-action.
+
+
+
+
+
+
+## 🧪 Development & Running Locally
+
+### Clone the repository
+
+```bash
+git clone https://github.com/farhana988/Xparter-.git
+cd my-portfolio
+```
+### Install dependencies
+```bash
+npm install
+```
+### Run Locally
+```bash
+npm run dev
+```
+### Build for Production (optional)
+```bash
+npm run build
+```
