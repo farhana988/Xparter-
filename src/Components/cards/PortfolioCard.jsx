@@ -3,7 +3,7 @@ import Overlay from "../reusable/Overlay";
 const PortfolioCard = ({ image }) => {
   const { src, caption } = image || {};
   return (
-    <div className="overflow-hidden shadow-md">
+    <div className="overflow-hidden hover:duration-700 hover:ease-in-out hover:-translate-y-2">
       <div className="relative h-60 md:h-56 xl:h-80">
         <img
           src={src}

@@ -3,7 +3,8 @@ const EpicDesignCard = ({ cardBg, circleBg, card }) => {
   return (
     <div
       className={`flex flex-col items-center text-center space-y-4 p-4 md:p-6 xl:p-10
-                     ${cardBg}`}
+        hover:duration-700 hover:ease-in-out hover:-translate-y-2 hover:shadow-xl
+       ${cardBg}`}
     >
       <div
         className={`w-20 h-20 rounded-full ${circleBg} flex items-center justify-center`}

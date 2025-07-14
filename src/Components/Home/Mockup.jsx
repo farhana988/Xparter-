@@ -37,7 +37,8 @@ const Mockup = () => {
       <section className="flex flex-col md:flex-row lg:flex-col items-center mb-10
       my-2 md:my-9 col-span-1 gap-1 md:gap-8 lg:gap-0">
         {cardData.map(({ id, title, description }) => (
-          <div key={id} className="w-10/12 h-full mb-2 xl:mb-4">
+          <div key={id} className="w-10/12 h-full mb-2 xl:mb-4   
+           hover:duration-700 hover:ease-in-out hover:-translate-y-2 hover:shadow-xl">
             <div className="bg-white px-6 pt-4 pb-7 xl:pb-14  h-full">
               <h3 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-6">
                 {title}
