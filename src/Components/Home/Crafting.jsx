@@ -1,4 +1,4 @@
-import bgImage from "../../assets/images/10. crafting 1.jpg";
+import bgImage from "../../assets/images/10. crafting.jpg";
 import Button from "../buttons/Button";
 import FreePic from "../reusable/FreePic";
 

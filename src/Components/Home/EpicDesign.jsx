@@ -5,7 +5,7 @@ import Heading from "../reusable/Heading";
 
 const EpicDesign = () => {
   return (
-    <div>
+    <>
       <Heading
         title="Epic design and engineering"
         subtitle="Bridging creativity and technology to craft purposeful, high-performance digital experiences that are as visually striking as they are functionally powerful."
@@ -27,7 +27,7 @@ const EpicDesign = () => {
           })}
         </div>
       </Container>
-    </div>
+    </>
   );
 };
 
