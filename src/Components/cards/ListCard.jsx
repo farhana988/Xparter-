@@ -1,11 +1,7 @@
 const ListCard = ({ underlineIndex, col }) => {
   const { id, title, items } = col || {};
   return (
-    <div
-      className="w-1/2 mx-auto 
-          md:w-full md:pr-10 lg:pr-16 xl:pr-28"
-      id={`col-${id}`}
-    >
+    <div className="w-1/2 mx-auto md:w-full " id={`col-${id}`}>
       <h3 className="text-xl lg:text-2xl xl:text-3xl font-semibold mb-6 text-[#8A784E] ">
         {title}
       </h3>

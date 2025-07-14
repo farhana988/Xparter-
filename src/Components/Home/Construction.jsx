@@ -1,6 +1,7 @@
 import bgImage from "../../assets/images/9. construction.jpg";
 import Button from "../buttons/Button";
 import FreePic from "../reusable/FreePic";
+import Overlay from "../reusable/Overlay";
 
 const Construction = () => {
   return (
@@ -10,7 +11,8 @@ const Construction = () => {
      "
     >
       {/* overlay */}
-      <div className="absolute inset-0 bg-black/10"></div>
+      <Overlay className="bg-black/10" />
+      
       <img src={bgImage} className="w-full h-full object-cover" />
       {/* Text content */}
       <div className="w-full absolute flex justify-end py-5 2xl:pl-20">

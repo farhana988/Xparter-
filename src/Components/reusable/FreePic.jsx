@@ -1,6 +1,6 @@
 const FreePic = () => {
   return (
-    <p>
+    <p className="tracking-tight text-xs opacity-70 font-medium">
       Image from{" "}
       <a
         href="https://www.freepik.com"

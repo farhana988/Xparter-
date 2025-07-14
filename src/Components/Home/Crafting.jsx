@@ -7,7 +7,7 @@ const Crafting = () => {
     <section
       className="relative w-full flex items-center text-black 
       h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]
-    transform transition-all duration-700 ease-out  "
+    transform transition-all duration-700 ease-out"
     >
       <img src={bgImage} className="w-full h-full object-cover" />
       {/* Text content */}
@@ -16,10 +16,7 @@ const Crafting = () => {
           className=" bg-white py-6 md:py-10 lg:py-16
          px-3 md:px-6 xl:px-9"
         >
-          <h2
-            className="md:text-2xl lg:text-4xl xl:text-5xl font-bold mb-1 md:mb-4 
-          md:tracking-wide "
-          >
+          <h2 className="md:text-2xl lg:text-4xl xl:text-5xl font-bold mb-1 md:mb-4">
             Crafting digital <br />
             experiences
           </h2>

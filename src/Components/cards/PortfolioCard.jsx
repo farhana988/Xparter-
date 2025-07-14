@@ -1,3 +1,5 @@
+import Overlay from "../reusable/Overlay";
+
 const PortfolioCard = ({ image }) => {
   const { src, caption } = image || {};
   return (
@@ -9,8 +11,7 @@ const PortfolioCard = ({ image }) => {
           alt={caption || "image"}
           className="w-full h-full object-cover object-top"
         />
-
-        <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
+        <Overlay className="bg-black/30" />
       </div>
 
       {/* Caption */}

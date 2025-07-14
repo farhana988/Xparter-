@@ -25,7 +25,7 @@ const Portfolio = () => {
           <PortfolioCard key={image.id} image={image} />
         ))}
       </Container>
-      <div className="flex justify-center mt-10 opacity-60">
+      <div className="flex justify-center mt-10 ">
         <FreePic />
       </div>
     </div>
