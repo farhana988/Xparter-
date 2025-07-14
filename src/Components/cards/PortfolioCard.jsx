@@ -15,7 +15,10 @@ const PortfolioCard = ({ image }) => {
       </div>
 
       {/* Caption */}
-      <div className="w-full bg-white text-gray-600 text-center py-3 xl:py-5 font-semibold text-lg">
+      <div
+        className="w-full bg-white text-gray-600 text-center py-3 xl:py-5
+      text-lg noto-sans-display font-medium"
+      >
         {caption}
       </div>
     </div>

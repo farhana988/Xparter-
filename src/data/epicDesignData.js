@@ -18,7 +18,7 @@ const epicDesignData = [
     description:
       "Creating memorable, consistent brand identities that connect with your audience.",
     cardBg: "bg-white",
-    circleBg: "bg-yellow-500",
+    circleBg: "bg-yellow",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const epicDesignData = [
     title: "Web Design",
     description:
       "Designing beautiful, user-friendly websites that blend form and function effortlessly.",
-    cardBg: "bg-yellow-500 text-white",
+    cardBg: "bg-yellow text-white",
     circleBg: "bg-white",
   },
 ];

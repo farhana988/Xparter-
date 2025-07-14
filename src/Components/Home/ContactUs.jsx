@@ -1,6 +1,7 @@
-import contact from "../../assets/images/11. contact us.jpg";
+import contact from "../../assets/images/contact.avif";
 import FreePic from "../reusable/FreePic";
 import Overlay from "../reusable/Overlay";
+
 const contactInfo = [
   { label: "Phone", value: "1 (232) 252-5522", underline: true },
   { label: "Location", value: "75 Street Sample, WL 63025" },
@@ -39,8 +40,9 @@ const ContactUs = () => (
     </div>
 
     {/* Image */}
-    <div className="relative w-full h-full col-span-6">
-      <img src={contact} className="w-full h-full object-cover" />
+    <div className="relative w-full  col-span-6
+     h-[300px] lg:h-[400px] xl:h-[560px] 2xl:h-[630px] ">
+      <img src={contact} className="w-full h-full object-cover object-bottom-left" />
       <Overlay />
     </div>
   </div>

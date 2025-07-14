@@ -18,8 +18,8 @@ const Construction = () => {
       <div className="w-full absolute flex justify-end py-5 2xl:pl-20">
         <div className="max-w-1/2 pr-5 md:pr-8 xl:pr-14 2xl:pr-28">
           <h2
-            className="md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-1 md:mb-4 
-          md:tracking-wide "
+            className="md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-1 md:mb-4 
+          md:tracking-wide noto-sans-display"
           >
             Construction and renovation projects
           </h2>

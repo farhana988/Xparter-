@@ -6,7 +6,7 @@ import Heading from "../reusable/Heading";
 
 const Portfolio = () => {
   return (
-    <div className="bg-zinc-800 pt-10 pb-16 text-white ">
+    <div className="bg-[#292d33] pt-10 pb-16 text-white ">
       {/* Heading */}
       <Heading
         title={"Portfolio"}
@@ -25,9 +25,8 @@ const Portfolio = () => {
           <PortfolioCard key={image.id} image={image} />
         ))}
       </Container>
-      <div className="flex justify-center mt-10 ">
-        <FreePic />
-      </div>
+
+      <FreePic className="flex justify-center mt-10 " />
     </div>
   );
 };

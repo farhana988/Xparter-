@@ -6,13 +6,12 @@ const EpicDesignCard = ({ cardBg, circleBg, card }) => {
                      ${cardBg}`}
     >
       <div
-        className={`w-20 h-20 rounded-full ${circleBg} 
-                  flex items-center justify-center`}
+        className={`w-20 h-20 rounded-full ${circleBg} flex items-center justify-center`}
       >
         <img src={image} alt={title} className="w-14 h-14 object-cover" />
       </div>
       <div className="opacity-65">
-        <h3 className="lg:text-lg font-semibold mb-4 lg:mb-6 uppercase">
+        <h3 className="lg:text-lg font-semibold mb-4 lg:mb-6 uppercase noto-sans-display">
           {title}
         </h3>
         <p className="text-xs lg:text-sm">{description}</p>

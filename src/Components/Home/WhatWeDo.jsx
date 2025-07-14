@@ -12,7 +12,7 @@ const WhatWeDo = () => {
   };
   return (
     <section className="bg-black text-white py-12">
-      <Heading title={"What We Do"} className="text-yellow-600" />
+      <Heading title={"What We Do"} className="text-yellow" />
       <Container className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between">
         {columns.map((col, colIndex) => {
           const underlineIndex = getUnderline(colIndex, col.items.length);

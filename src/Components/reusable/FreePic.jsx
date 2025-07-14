@@ -1,6 +1,8 @@
-const FreePic = () => {
+const FreePic = ({ className = "" }) => {
   return (
-    <p className="tracking-tight text-xs opacity-70 font-medium">
+    <p
+      className={`tracking-tight text-xs xl:text-base opacity-70 font-medium ${className}`}
+    >
       Image from{" "}
       <a
         href="https://www.freepik.com"
