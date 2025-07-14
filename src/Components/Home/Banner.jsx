@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <Container>
       <div
-        className="relative mb-32 mx-auto
+        className="relative mb-20 lg:mb-32 mx-auto
       max-w-[380px] md:max-w-[690px] lg:max-w-[950px] xl:max-w-[1320px]"
       >
         {/* card */}
@@ -28,7 +28,7 @@ const Banner = () => {
                 and creativity.
               </p>
               <FreePic className="my-5" />
-              <Button className="bg-black text-white uppercase opacity-95">
+              <Button className="bg-black text-white opacity-95">
                 view portfolio
               </Button>
             </div>

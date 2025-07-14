@@ -40,9 +40,9 @@ const BrandValues = () => {
         {/* Card */}
         <div
           className="absolute bottom-1/2 left-1/2 transform -translate-x-1/2 translate-y-1/2
-       bg-black text-white p-1 md:p-3 lg:p-6 w-1/3 md:w-3/12 text-center"
+       bg-black text-white p-3 lg:p-6 xl:p-10 w-1/3 xl:w-4/12 text-center"
         >
-          <h2 className="md:text-xl lg:text-3xl xl:text-4xl font-bold noto-sans-display">
+          <h2 className="text-sm md:text-xl lg:text-3xl xl:text-4xl font-bold noto-sans-display">
             Brand Values
           </h2>
           <p
@@ -52,8 +52,8 @@ const BrandValues = () => {
             Our brand values guide every decision we make. They reflect our
             commitment to quality, creativity, and trust.
           </p>
-          <FreePic />
-          <Button className="uppercase mt-4">learn more</Button>
+          <FreePic className="text-[8px] md:text-xs lg:text-sm xl:text-base" />
+          <Button className="uppercase mt-4 border">learn more</Button>
         </div>
       </div>
     </Container>

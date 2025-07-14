@@ -1,26 +1,52 @@
-import React from "react";
-import Portfolio from "../Components/Home/Portfolio";
-import WhatWeDo from "../Components/Home/WhatWeDo";
-import Construction from "../Components/Home/Construction";
-import EpicDesign from "../Components/Home/EpicDesign";
-import Crafting from "../Components/Home/Crafting";
-import ContactUs from "../Components/Home/ContactUs";
-import Mockup from "../Components/Home/Mockup";
+import { lazy, Suspense } from "react";
 import Banner from "../Components/Home/Banner";
-import BrandValues from "../Components/Home/BrandValues";
+import Spinner from "../Components/reusable/Spinner";
+
+const Portfolio = lazy(() => import("../Components/Home/Portfolio"));
+const WhatWeDo = lazy(() => import("../Components/Home/WhatWeDo"));
+const Construction = lazy(() => import("../Components/Home/Construction"));
+const EpicDesign = lazy(() => import("../Components/Home/EpicDesign"));
+const Crafting = lazy(() => import("../Components/Home/Crafting"));
+const ContactUs = lazy(() => import("../Components/Home/ContactUs"));
+const Mockup = lazy(() => import("../Components/Home/Mockup"));
+const BrandValues = lazy(() => import("../Components/Home/BrandValues"));
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <EpicDesign />
-      <Portfolio />
-      <BrandValues/>
-      <Construction />
-      <WhatWeDo />
-      <Mockup />
-      <Crafting />
-      <ContactUs />
+
+      <Suspense fallback={<Spinner />}>
+        <EpicDesign />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <Portfolio />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <BrandValues />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <Construction />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <WhatWeDo />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <Mockup />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <Crafting />
+      </Suspense>
+
+      <Suspense fallback={<Spinner />}>
+        <ContactUs />
+      </Suspense>
     </>
   );
 };

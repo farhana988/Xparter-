@@ -1,9 +1,7 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
-  background-color: #ddcfc6;
-}
+
 .noto-sans-display {
   font-family: "Noto Sans Display", sans-serif;
 }

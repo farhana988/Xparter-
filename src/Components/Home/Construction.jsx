@@ -12,9 +12,9 @@ const Construction = () => {
     >
       {/* overlay */}
       <Overlay className="bg-black/10" />
-      
+
       <img src={bgImage} className="w-full h-full object-cover" />
-      {/* Text content */}
+      {/* text card*/}
       <div className="w-full absolute flex justify-end py-5 2xl:pl-20">
         <div className="max-w-1/2 pr-5 md:pr-8 xl:pr-14 2xl:pr-28">
           <h2
@@ -37,7 +37,7 @@ const Construction = () => {
             <br className="hidden md:block" />
             <br /> <FreePic />
           </p>
-          <Button className="opacity-50">Contact Us</Button>
+          <Button className="opacity-50 border">Contact Us</Button>
         </div>
       </div>
     </section>

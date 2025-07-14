@@ -11,7 +11,7 @@ const WhatWeDo = () => {
     return -1;
   };
   return (
-    <section className="bg-black text-white py-12">
+    <section className="bg-black text-white py-12 lg:pb-20">
       <Heading title={"What We Do"} className="text-yellow" />
       <Container className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between">
         {columns.map((col, colIndex) => {

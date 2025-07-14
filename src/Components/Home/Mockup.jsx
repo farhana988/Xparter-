@@ -24,18 +24,18 @@ const cardData = [
 
 const Mockup = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto
-    max-w-[425px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1440px]">
+    <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto 
+    max-w-[425px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1440px] 2xl:max-w-[1600px]">
       {/* background image section */}
       <section
-        className="bg-cover lg:bg-center col-span-1 lg:col-span-2
+        className="bg-cover lg:bg-center col-span-1 lg:col-span-2 w-full
         h-60 md:h-[450px] lg:h-full"
         style={{ backgroundImage: `url(${mock})` }}
       ></section>
 
       {/* card section */}
-      <section className="flex flex-col md:flex-row lg:flex-col items-center my-9 
-      col-span-1 gap-8 lg:gap-0">
+      <section className="flex flex-col md:flex-row lg:flex-col items-center mb-10
+      my-2 md:my-9 col-span-1 gap-1 md:gap-8 lg:gap-0">
         {cardData.map(({ id, title, description }) => (
           <div key={id} className="w-10/12 h-full mb-2 xl:mb-4">
             <div className="bg-white px-6 pt-4 pb-7 xl:pb-14  h-full">

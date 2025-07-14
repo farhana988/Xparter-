@@ -11,7 +11,8 @@ const EpicDesign = () => {
         subtitle="Bridging creativity and technology to craft purposeful, high-performance digital experiences that are as visually striking as they are functionally powerful."
       />
       <Container>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-8 xl:gap-16 py-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-8
+         xl:gap-16 pb-8">
           {epicDesignData.map((card) => {
             const cardBg = card.cardBg || "bg-transparent";
             const circleBg = card.circleBg || "bg-white";
